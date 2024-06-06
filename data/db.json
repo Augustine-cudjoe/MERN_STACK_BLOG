@@ -1,0 +1,105 @@
+{
+"blog":[
+    {
+    "id":"0",
+   "title":"Blog strategies",
+    "post":"https://blog.hubspot.com/hs-fs/hubfs/Jenny-Romanchuck.jpg?width=96&height=96&name=Jenny-Romanchuck.jpg",
+    "img":"https://i.pinimg.com/474x/fa/eb/78/faeb78db6dbc02afbc6892235aea475e.jpg ",
+    "name":"winner ",
+    "date":"15/40/2024",
+    "time":"11:30pm ",
+    "message":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio omnis blanditiis, placeat debitis vero possimus earum dicta perferendis nisi, mollitia et velit? Id vitae non rem suscipit! Necessitatibus, aliquam aperiam"
+   },
+   {
+    "id":"1",
+    "title":"Blog strategies",
+    "post":"https://i.pinimg.com/474x/86/cb/2b/86cb2b38264c678fb4b38b3767bfdef0.jpg",
+    "img":"https://i.pinimg.com/474x/b4/1b/68/b41b689d4429bfb6df884ea462ab660e.jpg ",
+    "name":"Burner ",
+    "date":"15/40/2024",
+    "time":"11:30pm ",
+    "message":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio omnis blanditiis, placeat debitis vero possimus earum dicta perferendis nisi, mollitia et velit? Id vitae non rem suscipit! Necessitatibus, aliquam aperiam"
+   },
+   {
+    "id":"2",
+    "title":"Blog strategies",
+    "post":"https://i.pinimg.com/474x/86/cb/2b/86cb2b38264c678fb4b38b3767bfdef0.jpg",
+    "img":"https://i.pinimg.com/474x/25/30/04/25300440c5b32795f496a5f1e9425f7d.jpg ",
+    "name":"winner ",
+    "date":"15/40/2024",
+    "time":"11:30pm ",
+    "message":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio omnis blanditiis, placeat debitis vero possimus earum dicta perferendis nisi, mollitia et velit? Id vitae non rem suscipit! Necessitatibus, aliquam aperiam"
+   },
+   {
+    "id":"3",
+    "title":"strategies",
+    "post":"https://i.pinimg.com/474x/86/cb/2b/86cb2b38264c678fb4b38b3767bfdef0.jpg",
+   
+    "img":"https://i.pinimg.com/474x/7c/b8/99/7cb89972b8b1205d971e76ffc713f174.jpg ",
+    "name":"winner ",
+    "date":"15/40/2024",
+    "time":"11:30pm ",
+    "message":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio omnis blanditiis, placeat debitis vero possimus earum dicta perferendis nisi, mollitia et velit? Id vitae non rem suscipit! Necessitatibus, aliquam aperiam"
+   },
+   {
+    "id":"4",
+    "title":"Money making",
+    "post":"https://i.pinimg.com/474x/86/cb/2b/86cb2b38264c678fb4b38b3767bfdef0.jpg",
+   
+    "img":"https://i.pinimg.com/474x/be/67/12/be6712f8f8c09e99ddb867ae5d487058.jpg",
+    "name":"winner ",
+    "date":"15/40/2024",
+    "time":"11:30pm ",
+    "message":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio omnis blanditiis, placeat debitis vero possimus earum dicta perferendis nisi, mollitia et velit? Id vitae non rem suscipit! Necessitatibus, aliquam aperiam"
+   }
+   ,
+   {
+    "id":"5",
+    "title":"online  Money making",
+    "post":"https://i.pinimg.com/474x/86/cb/2b/86cb2b38264c678fb4b38b3767bfdef0.jpg",
+   
+    "img":"https://i.pinimg.com/474x/44/5a/e0/445ae066ea63f70e1572be5b03314bd0.jpg ",
+    "name":"winner ",
+    "date":"15/40/2024",
+    "time":"11:30pm ",
+    "message":" In the begining"
+   }
+   ,
+   {
+    "id":"6",
+    "title":"strategies",
+    "post":"https://i.pinimg.com/474x/86/cb/2b/86cb2b38264c678fb4b38b3767bfdef0.jpg",
+   
+    "img":"https://i.pinimg.com/474x/7c/b8/99/7cb89972b8b1205d971e76ffc713f174.jpg ",
+    "name":"winner ",
+    "date":"15/40/2024",
+    "time":"11:30pm ",
+    "message":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio omnis blanditiis, placeat debitis vero possimus earum dicta perferendis nisi, mollitia et velit? Id vitae non rem suscipit! Necessitatibus, aliquam aperiam"
+   },
+   {
+    "id":"7",
+    "title":"Money making",
+    "post":"https://i.pinimg.com/474x/86/cb/2b/86cb2b38264c678fb4b38b3767bfdef0.jpg",
+   
+    "img":"https://i.pinimg.com/474x/be/67/12/be6712f8f8c09e99ddb867ae5d487058.jpg",
+    "name":"winner ",
+    "date":"15/40/2024",
+    "time":"11:30pm ",
+    "message":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio omnis blanditiis, placeat debitis vero possimus earum dicta perferendis nisi, mollitia et velit? Id vitae non rem suscipit! Necessitatibus, aliquam aperiam"
+   }
+   ,
+   {
+    "id":"8",
+    "title":"online  Money making",
+    "post":"https://i.pinimg.com/474x/86/cb/2b/86cb2b38264c678fb4b38b3767bfdef0.jpg",
+   
+    "img":"https://i.pinimg.com/474x/44/5a/e0/445ae066ea63f70e1572be5b03314bd0.jpg ",
+    "name":"winner ",
+    "date":"15/40/2024",
+    "time":"11:30pm ",
+    "message":" In the begining"
+   }
+   
+  
+  ]
+}

@@ -1,0 +1,23 @@
+
+
+
+@media (min-width:768px) and (max-width:1040px) {
+     #home{ padding-inline: 30px !important;}
+     .profile{padding-inline: 30px !important;}
+     #desktop{ padding-inline: 30px !important;}
+    #create-post{
+     padding-inline: 30px;
+    }
+    #desktop{padding-inline: 30px;}
+    #form input[type="text"], #form input[type="date"],#form input[type="time"]{
+        width: 98%;
+        
+    }
+    #footer{min-height: 80vh !important;}
+    
+    
+}
+@media (max-width:767px) {
+ #footer{min-height: 100vh !important; margin-bottom: 130px;}
+    
+}

@@ -1,25 +1,27 @@
 
 import React from 'react'
+import moment from 'moment';
 
 const ProfilePost = () => {
+  let datetime= moment().format('LLL')
   return (
-    <div className="flex w-full mt-8 space-x-4 ">
+    <div className="flex flex-col  md:flex-row  w-full mt-8 space-x-4 ">
     {/*left */}
-    <div className="w-[35%] h-[200px] flex justify-center items-center">
-     <img src="https://media.istockphoto.com/id/1464561797/photo/artificial-intelligence-processor-unit-powerful-quantum-ai-component-on-pcb-motherboard-with.jpg?s=1024x1024&w=is&k=20&c=vKnJb_tlENfrcT5jSWRugaJv-ESAlBkTcDgiNGgFPW0=" alt="" className="w-full h-full object-cover"/>
+    <div className="w-full md:w-[35%] h-[200px] flex justify-center items-center md:mb-0 mb-3">
+     <img src="https://i.pinimg.com/474x/fe/5c/f3/fe5cf30aec2b23cea36355320b809ba4.jpg" alt="" className="w-full h-full object-cover"/>
     </div>
  
  
     {/*right */}
-    <div className="flex flex-col w-[65%] ">
+    <div className="flex flex-col md:w-[95%] lg:w-[85%] w-full ">
       <h1 className="text-xl font-bold md:mb-2 mb-1 md:text-2xl ">
-         10 uses of AI in our day life
+         10 importance of Exercises
       </h1>
-      < div className="flex mb-2 text-sm font-semibold text-gray-500 items-center justify-between md:mb-4">
-       <p> @snehasishdev</p>
+      < div className="flex mb-2 gap-3 text-sm font-semibold text-gray-500 items-center justify-between md:mb-4">
+       <p> @Augustine</p>
        <div className="flex space-x-4 text-sm">
-         <p>15/40/2020</p>
-         <p>16:45</p>
+         <p>{datetime}</p>
+         
      </div>
       </div>
       <p className="text-sm md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio omnis blanditiis, placeat debitis vero possimus earum dicta perferendis nisi, mollitia et velit? Id vitae non rem suscipit! Necessitatibus, aliquam aperiam!</p>

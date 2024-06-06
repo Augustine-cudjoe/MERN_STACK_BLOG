@@ -1,24 +1,88 @@
+
+import { useState } from 'react';
 import {BiEdit} from 'react-icons/bi';
 import {MdDelete} from 'react-icons/md';
 
-const Comment = () => {
+const Comment = ({postComment, onDeleteComent, onChangeComment}) => {
   return (
-    <div className="px-2 py-2 bg-gray-200 rounded-lg my-2">
-    <div className="flex items-center justify-between">
-     <h3 className='font-bold text-gray-600'>@augustine</h3>
-      <div className="flex justify-center items-center space-x-4">
-         <p className='text-gray-500 text-sm' >15/40/2020 </p>
-         <p className='text-gray-500 text-sm' > 16:45 </p>
-         <div className="flex items-center justify-center space-x-2" >
-            <p><BiEdit/></p>
-           <p> <MdDelete/></p>
-         </div>
-      </div>
-    </div>
+    <ul>
+      {
+        postComment.map(comment=>(
+          <li className='px-2 py-2 bg-gray-200 rounded-lg my-2' key={comment.id}>
+             <CommentDisplay 
+             comment={comment} 
+             onComment={onChangeComment} 
+              onDelete={onDeleteComent} />
 
-   <p className="px-4 mt-2">Nice Information </p> 
-</div>
+          </li>
+        ))
+      }
+    </ul>
   )
 }
 
 export default Comment;
+
+function CommentDisplay({comment, onComment, onDelete}){
+   
+  const [isEdit, setIsEdit]=useState(false)
+
+  const handleCom=(e)=>{
+     onComment((prev)=>({
+      ...prev,
+      [e.target.name]:e.target.value
+     }))
+     
+  }
+
+  let commentContent;
+  if(isEdit){
+    commentContent=(
+      <div className=' '>
+        <input value={comment.name} 
+         name='name'
+        onChange={handleCom}/>
+       <textarea rows={3}
+       cols={50}
+       value={comment.comment}
+       name='comment'
+       onChange={handleCom}
+       />
+ 
+      <button onClick={() => setIsEdit(false)} className='text-white w-[100px] text-center text-lg flex justify-center items-center mb-5'>
+          update
+         </button>
+ 
+      </div>
+     )
+
+  }else{
+    commentContent = (
+      <>
+      {comment.comment}
+      <button onClick={() => setIsEdit(true)} className='flex items-center gap-2'>
+      <BiEdit className='text-blue-600 text-2xl me-2'/>  Edit
+      </button>
+      </>
+      )
+  }
+  
+   
+
+  return(
+    < div className='flex justify-between '>
+    
+    <div className=''> 
+      <label>
+     
+      {commentContent}
+      <button onClick={() => onDelete(comment.id)} className='flex items-center gap-2'>
+        <MdDelete className='text-rose-600 text-2xl '/> Delete
+      </button>
+    </label>
+    </div>
+
+    </div>
+  )
+
+}
