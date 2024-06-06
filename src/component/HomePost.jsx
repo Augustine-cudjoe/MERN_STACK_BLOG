@@ -83,8 +83,8 @@ const HomePost = ({postMessage}) => {
     
       <div className="flex flex-col md:flex-row w-full md:mt-8 md:space-x-4 mb-3  md:pt-10  border border-gray-300 rounded-lg ">
    {/*left */}
-   <div className="w-full md:w-[35%] h-[200px]  flex  justify-center items-center border-b  border-gray-300 ">
-    <img src={postMessage.img} alt="" className="w-full h-full object-cover"/>
+   <div className="w-full md:w-[35%] h-[200px]  flex  justify-center items-center border-b  border-gray-300 p-2">
+    <img src={postMessage.img} alt="" className="w-full h-full md:h-[150px] object-cover"/>
    </div>
 
 
