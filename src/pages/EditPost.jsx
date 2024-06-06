@@ -146,9 +146,9 @@ const EditPost = () => {
             <Editor
               editorState={editorState}
               onEditorStateChange={setEditorState}
-              toolbarOnFocus
+              
               wrapperClassName="wrapper-class"
-              editorClassName="editor-class"
+              editorClassName="editor-class bg-gray-300 h-[200px] pt-[10px]"
               toolbarClassName="toolbar-class"
             />
           </div>
